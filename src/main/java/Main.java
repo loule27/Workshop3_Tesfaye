@@ -350,7 +350,7 @@ public class Main {
                     count++;
                 }
             }
-            System.out.printf("ID: %s| Product: %s x%d $%.2f%n", p.getId(), p.getName(), count, p.getPrice() * count);
+            System.out.printf("ID: %s | Product: %s x%d $%.2f%n", p.getId(), p.getName(), count, p.getPrice() * count);
             present.add(p);
         }
     }
